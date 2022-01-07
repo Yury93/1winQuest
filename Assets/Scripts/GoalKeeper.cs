@@ -78,14 +78,17 @@ public class GoalKeeper : MonoBehaviour
                 if (Score > EnemyScore)
                 {
                     indexScreen.NewIndexInit(winIndex);
+                    AudioManager.Instance.PlayAudioWin();
                 }
                 if (Score == EnemyScore)
                 {
                     indexScreen.NewIndexInit(drawIndex);
+                    AudioManager.Instance.PlayAudioLose();
                 }
                 if (Score < EnemyScore)
                 {
                     indexScreen.NewIndexInit(loseIndex);
+                    AudioManager.Instance.PlayAudioLose();
                 }
             }
         }
