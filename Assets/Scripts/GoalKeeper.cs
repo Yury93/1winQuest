@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class GoalKeeper : MonoBehaviour
 {
+    [SerializeField] private IndexScreen indexScreen;
     [SerializeField] private int score;
     public int Score => score;
     [SerializeField] private int luck;
@@ -18,6 +19,10 @@ public class GoalKeeper : MonoBehaviour
     [SerializeField] private GameObject sceneEnemy;
     [SerializeField] private Text scoreEnemyTxt;
     [SerializeField] private int enemyScore;
+    [SerializeField] private int winIndex, drawIndex, loseIndex;
+
+    public int EnemyScore => enemyScore;
+    
     
     private void Start()
     {
@@ -39,12 +44,14 @@ public class GoalKeeper : MonoBehaviour
             enemyScore += 1;
             sceneWin.SetActive(false);
             sceneLose.SetActive(true);
+            AudioManager.Instance.PLayAudioUI();
         }
         else
         {
             sceneLose.SetActive(false);
             sceneWin.SetActive(true);
             enemyScore += 0;
+            AudioManager.Instance.PLayAudioUI();
         }
         if (clickCount >= 6)
         {
@@ -66,6 +73,21 @@ public class GoalKeeper : MonoBehaviour
             score = UnityEngine.Random.Range(0, 6);
             scoreEnemyTxt.text = $"Score {score}:" + enemyScore.ToString();
             buttonNext.SetActive(true);
+            if (indexScreen != null)
+            {
+                if (Score > EnemyScore)
+                {
+                    indexScreen.NewIndexInit(winIndex);
+                }
+                if (Score == EnemyScore)
+                {
+                    indexScreen.NewIndexInit(drawIndex);
+                }
+                if (Score < EnemyScore)
+                {
+                    indexScreen.NewIndexInit(loseIndex);
+                }
+            }
         }
     }
 }
