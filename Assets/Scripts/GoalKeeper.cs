@@ -65,7 +65,7 @@ public class GoalKeeper : MonoBehaviour
         sceneLose.SetActive(false);
         sceneEnemy.SetActive(true);
         buttonNext.SetActive(false);
-        scoreEnemyTxt.text = "Ваша команда бьёт по воротам соперника.";
+        scoreEnemyTxt.text = "Your team shoots at the opponent's goal.";
         StartCoroutine(corGeneralScore());
         IEnumerator corGeneralScore()
         {

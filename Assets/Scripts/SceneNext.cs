@@ -9,6 +9,6 @@ public class SceneNext : MonoBehaviour
 
     public void WalkScenePlay()
     {
-        SceneManager.LoadSceneAsync(indexScene);
+        SceneManager.LoadSceneAsync(indexScene + 1);
     }
 }

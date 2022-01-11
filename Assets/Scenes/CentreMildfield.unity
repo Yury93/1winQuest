@@ -226,7 +226,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &41418840
 RectTransform:
   m_ObjectHideFlags: 0
@@ -451,10 +451,10 @@ RectTransform:
   m_Father: {fileID: 139332851}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -474.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29311103, y: 0.08812501}
+  m_AnchorMax: {x: 0.7235556, y: 0.1795}
+  m_AnchoredPosition: {x: -0.8661041, y: -5.9645996}
+  m_SizeDelta: {x: 4.0158997, y: 3.3561096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &43278502
 MonoBehaviour:
@@ -557,8 +557,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -602,7 +602,7 @@ RectTransform:
   m_GameObject: {fileID: 78233795}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 627132855}
   m_RootOrder: 0
@@ -625,7 +625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -634,21 +634,19 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 6
+    m_MaxSize: 65
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041C\u044F\u0447, \u043F\u043E\u043F\u0430\u043B \u043A \u043F\u0440\u0430\u0432\u043E\u043C\u0443
-    \u0437\u0430\u0449\u0438\u0442\u043D\u0438\u043A\u0443 \u0438\u0437 \u043A\u043E\u043C\u0430\u043D\u0434\u044B
-    \u0441\u043E\u043F\u0435\u0440\u043D\u0438\u043A\u0430, \u043D\u043E \u0432\u044B
-    \u043E\u0442\u043E\u0431\u0440\u0430\u043B\u0438 \u043C\u044F\u0447 "
+  m_Text: 'The ball went to the right defender of the opposing team, but you took
+    the ball away '
 --- !u!222 &78233798
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -727,8 +725,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0421\u043E\u043F\u0440\u043E\u0432\u0430\u0436\u0434\u0430\u0442\u044C
-    \u0444\u043E\u0440\u0432\u0430\u0440\u0434\u0430 \u0432 \u0438\u0433\u0440\u0435"
+  m_Text: Accompany the forward in the game
 --- !u!222 &100933167
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -772,10 +769,10 @@ RectTransform:
   m_Father: {fileID: 213861509}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -316.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29144445, y: 0.20934376}
+  m_AnchorMax: {x: 0.7348334, y: 0.30328125}
+  m_AnchoredPosition: {x: -4.366104, y: -4.4645996}
+  m_SizeDelta: {x: -4.9841003, y: 0.35610962}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &109805451
 MonoBehaviour:
@@ -878,8 +875,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -957,7 +954,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: aa48e8402cae9a54b94eb9e2b17b79d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1045,7 +1042,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0412\u044B"
+  m_Text: You
 --- !u!222 &146508355
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1081,7 +1078,7 @@ RectTransform:
   m_GameObject: {fileID: 168678448}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 1004909378}
   m_RootOrder: 0
@@ -1104,7 +1101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1113,23 +1110,19 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 6
+    m_MaxSize: 65
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0412\u044B \u0437\u0430\u043D\u044F\u043B\u0438 \u0441\u0432\u043E\u044E
-    \u0437\u043E\u043D\u0443 \u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0441\u0442\u0438
-    \u043F\u043E \u0446\u0435\u043D\u0442\u0440\u0443 \u0438 \u043D\u0430\u0431\u043B\u044E\u0434\u0430\u0435\u0442\u0435
-    \u0437\u0430 \u0438\u0433\u0440\u043E\u043A\u0430\u043C\u0438 \u0438 \u043C\u044F\u0447\u043E\u043C.
-    \u0412\u0440\u0435\u043C\u044F \u043D\u0430 \u0438\u0441\u0445\u043E\u0434\u0435.
-    \u0412\u0430\u0448\u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F?"
+  m_Text: You have taken your area of responsibility in the center and are watching
+    the players and the ball. Time is running out. What do you do?
 --- !u!222 &168678451
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1199,7 +1192,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: aa48e8402cae9a54b94eb9e2b17b79d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1358,8 +1351,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1446,10 +1439,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u043E\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u0441\u0443\u0434\u044C\u044E
-    \u0440\u0430\u0437\u044B\u0433\u0440\u0430\u0442\u044C \u043C\u044F\u0447, \u0442\u0430\u043A
-    \u043A\u0430\u043A \u0432\u043E\u0437\u043D\u0438\u043A\u043B\u0430 \u0441\u043F\u043E\u0440\u043D\u0430\u044F
-    \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044F."
+  m_Text: Ask the referee to play the ball because a controversial situation has
+    arisen.
 --- !u!222 &259605361
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1528,8 +1519,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043F\u0440\u043E\u0440\u0432\u0430\u0442\u044C\u0441\u044F
-    \u043A \u0432\u043E\u0440\u043E\u0442\u0430\u043C \u0441\u043E\u043F\u0435\u0440\u043D\u0438\u043A\u0430"
+  m_Text: Try to break through to the opponent's goal
 --- !u!222 &261759027
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1635,7 +1625,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: aa48e8402cae9a54b94eb9e2b17b79d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1723,9 +1713,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043F\u0440\u043E\u0440\u0432\u0430\u0442\u044C\u0441\u044F
-    \u0441 \u043C\u044F\u0447\u043E\u043C \u043A \u0432\u043E\u0440\u043E\u0442\u0430\u043C
-    \u0441\u043E\u043F\u0435\u0440\u043D\u0438\u043A\u0430"
+  m_Text: Try to break through with the ball to the opponent's goal
 --- !u!222 &302274196
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1804,7 +1792,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0442\u044C \u043D\u0430\u0431\u043B\u044E\u0434\u0430\u0442\u044C"
+  m_Text: Continue to observe
 --- !u!222 &308592771
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1874,7 +1862,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: aa48e8402cae9a54b94eb9e2b17b79d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1998,7 +1986,7 @@ RectTransform:
   m_GameObject: {fileID: 331245575}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 1655414385}
   m_RootOrder: 0
@@ -2021,7 +2009,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2030,24 +2018,19 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 6
+    m_MaxSize: 65
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0412\u044B \u0441\u0434\u0435\u043B\u0430\u043B\u0438 \u043F\u0430\u0441
-    \u043F\u0440\u0430\u0432\u043E\u043C\u0443 \u0437\u0430\u0449\u0438\u0442\u043D\u0438\u043A\u0443.
-    \u041F\u0440\u0430\u0432\u044B\u0439 \u0437\u0430\u0449\u0438\u0442\u043D\u0438\u043A
-    \u0434\u043E\u0448\u0451\u043B \u0434\u043E \u0432\u043E\u0440\u043E\u0442, \u043D\u043E
-    \u0441\u043E\u043F\u0435\u0440\u043D\u0438\u043A \u0433\u0440\u0443\u0431\u043E
-    \u0441\u044B\u0433\u0440\u0430\u043B \u0438 \u0432\u044B\u0431\u0438\u043B \u043C\u044F\u0447
-    \u0438\u0437 \u043F\u043E\u0434 \u0435\u0433\u043E \u043D\u043E\u0433"
+  m_Text: You made a pass to the right defender. The right defender reached the goal,
+    but the opponent played roughly and knocked the ball out from under his feet
 --- !u!222 &331245578
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2091,10 +2074,10 @@ RectTransform:
   m_Father: {fileID: 139332851}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -316.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29311103, y: 0.20762502}
+  m_AnchorMax: {x: 0.7235556, y: 0.29521877}
+  m_AnchoredPosition: {x: -0.8661041, y: 1.5354004}
+  m_SizeDelta: {x: 4.0158997, y: 8.35611}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &334020510
 MonoBehaviour:
@@ -2197,8 +2180,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2444,9 +2427,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043F\u0440\u043E\u0440\u0432\u0430\u0442\u044C\u0441\u044F
-    \u0441 \u043C\u044F\u0447\u043E\u043C \u0432 \u0437\u043E\u043D\u0443 \u0432\u043E\u0440\u043E\u0442
-    \u0441\u043E\u043F\u0435\u0440\u043D\u0438\u043A\u0430"
+  m_Text: Try to break through with the ball into the opponent's goal area
 --- !u!222 &349023688
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2505,7 +2486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2514,20 +2495,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 6
+    m_MaxSize: 65
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0412\u044B \u0441\u043C\u043E\u0442\u0440\u0438\u0442\u0435. \u041D\u0430
-    \u0444\u043E\u0440\u0432\u0430\u0440\u0434\u0430 \u043D\u0430\u043F\u0430\u0434\u0430\u044E\u0442
-    \u0438 \u0437\u0430\u0431\u0438\u0440\u0430\u044E\u0442 \u043C\u044F\u0447"
+  m_Text: You're watching. The forward is attacked and takes the ball
 --- !u!222 &366590545
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2650,10 +2629,10 @@ RectTransform:
   m_Father: {fileID: 1843063504}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -156}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.3013333, y: 0.32737505}
+  m_AnchorMax: {x: 0.72927785, y: 0.42334378}
+  m_AnchoredPosition: {x: -5.866104, y: 3.5}
+  m_SizeDelta: {x: 6.0158997, y: -2.643898}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &415198976
 MonoBehaviour:
@@ -2844,7 +2823,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u0435\u0440\u0435\u0434\u0430\u0442\u044C \u043C\u044F\u0447 \u0444\u043E\u0440\u0432\u0430\u0440\u0434\u0443"
+  m_Text: Pass the ball to the forward
 --- !u!222 &415399459
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2873,7 +2852,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &436967357
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3098,10 +3077,10 @@ RectTransform:
   m_Father: {fileID: 498064823}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -474.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29144445, y: 0.080000006}
+  m_AnchorMax: {x: 0.7236111, y: 0.17728128}
+  m_AnchoredPosition: {x: -0.36610413, y: 1.0354004}
+  m_SizeDelta: {x: 3.0158997, y: -4.6438904}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &448361148
 MonoBehaviour:
@@ -3204,8 +3183,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3255,10 +3234,10 @@ RectTransform:
   m_Father: {fileID: 1379641337}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8709, y: 323.2265}
-  m_SizeDelta: {x: 500.3811, y: 388.1246}
+  m_AnchorMin: {x: 0.164, y: 0.59853125}
+  m_AnchorMax: {x: 0.8458889, y: 0.9083438}
+  m_AnchoredPosition: {x: -5.3708954, y: -0.77349854}
+  m_SizeDelta: {x: 9.3811035, y: -7.8753967}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &467980021
 MonoBehaviour:
@@ -3280,7 +3259,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4ce2201f58139854bb395a769e419997, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3563,6 +3542,144 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1001 &486433247
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2156629302645792937, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 563873326}
+    - target: {fileID: 2156629302645792937, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResetLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629302729270771, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629302729270771, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629302729270771, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 563873326}
+    - target: {fileID: 2156629302729270771, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629302729270771, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectURL
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629302729270771, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RestartGame, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629302729270771, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629303219722679, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_Name
+      value: Part Result Lose (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629303219722683, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629303219722683, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629303219722683, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629303219722683, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629303219722683, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629303219722683, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629303219722683, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629303219722683, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629303219722683, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629303219722683, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629303219722683, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629303219722683, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629303219722683, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629303219722683, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629303219722683, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629303219722683, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629303219722683, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629303219722683, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629303219722683, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629303219722683, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156629303219722683, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+--- !u!1 &486433248 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2156629303219722679, guid: 4e62cc39a06035243b20a2cc6eca6b78, type: 3}
+  m_PrefabInstance: {fileID: 486433247}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &498064822
 GameObject:
   m_ObjectHideFlags: 0
@@ -3624,7 +3741,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: aa48e8402cae9a54b94eb9e2b17b79d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3677,10 +3794,10 @@ RectTransform:
   m_Father: {fileID: 296302686}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -474.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.286, y: 0.08837502}
+  m_AnchorMax: {x: 0.72938895, y: 0.17275001}
+  m_AnchoredPosition: {x: -0.36610413, y: -1.4645996}
+  m_SizeDelta: {x: -4.9841003, y: 12.35611}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &509659393
 MonoBehaviour:
@@ -3783,8 +3900,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3836,10 +3953,10 @@ RectTransform:
   m_Father: {fileID: 296302686}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -156}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.286, y: 0.32428125}
+  m_AnchorMax: {x: 0.72938895, y: 0.411625}
+  m_AnchoredPosition: {x: -0.36610413, y: 13}
+  m_SizeDelta: {x: -4.9841003, y: 8.356102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &510818646
 MonoBehaviour:
@@ -3942,8 +4059,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3980,7 +4097,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &518180745
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4240,8 +4357,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u043E\u0441\u0442\u0430\u0440\u0430\u0442\u044C\u0441\u044F \u0441\u0435\u043B\u0430\u0442\u044C
-    \u043D\u0438\u0447\u044C\u044E"
+  m_Text: Try to make a draw.
 --- !u!222 &519751105
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4310,7 +4426,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: aa48e8402cae9a54b94eb9e2b17b79d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4361,10 +4477,10 @@ RectTransform:
   m_Father: {fileID: 969146192}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8709, y: 323.2265}
-  m_SizeDelta: {x: 500.3811, y: 388.1246}
+  m_AnchorMin: {x: 0.15272222, y: 0.60712504}
+  m_AnchorMax: {x: 0.8472222, y: 0.9025001}
+  m_AnchoredPosition: {x: -1.8708954, y: -2.7734985}
+  m_SizeDelta: {x: 0.38110352, y: 10.124603}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &547951684
 MonoBehaviour:
@@ -4386,7 +4502,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4ce2201f58139854bb395a769e419997, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4679,10 +4795,10 @@ RectTransform:
   m_Father: {fileID: 1227110998}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8709, y: 323.2265}
-  m_SizeDelta: {x: 500.3811, y: 388.1246}
+  m_AnchorMin: {x: 0.14716667, y: 0.587}
+  m_AnchorMax: {x: 0.8488334, y: 0.8483395}
+  m_AnchoredPosition: {x: -0.37088013, y: -2.2734985}
+  m_SizeDelta: {x: -4.6188965, y: -2.8753967}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &552109854
 MonoBehaviour:
@@ -4704,7 +4820,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 1540083d5d55d4f4c9091eb2c70f82a2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4722,6 +4838,78 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 552109852}
   m_CullTransparentMesh: 1
+--- !u!1001 &563873325
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 135336378959515775, guid: 1c385061db1ac3949ac6ee7eaa9ab9a1, type: 3}
+      propertyPath: prefabCasino
+      value: 
+      objectReference: {fileID: 1775339116}
+    - target: {fileID: 3655978853712041953, guid: 1c385061db1ac3949ac6ee7eaa9ab9a1, type: 3}
+      propertyPath: m_Name
+      value: RestartGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188173073396698590, guid: 1c385061db1ac3949ac6ee7eaa9ab9a1, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188173073396698590, guid: 1c385061db1ac3949ac6ee7eaa9ab9a1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188173073396698590, guid: 1c385061db1ac3949ac6ee7eaa9ab9a1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188173073396698590, guid: 1c385061db1ac3949ac6ee7eaa9ab9a1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188173073396698590, guid: 1c385061db1ac3949ac6ee7eaa9ab9a1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188173073396698590, guid: 1c385061db1ac3949ac6ee7eaa9ab9a1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188173073396698590, guid: 1c385061db1ac3949ac6ee7eaa9ab9a1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188173073396698590, guid: 1c385061db1ac3949ac6ee7eaa9ab9a1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188173073396698590, guid: 1c385061db1ac3949ac6ee7eaa9ab9a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188173073396698590, guid: 1c385061db1ac3949ac6ee7eaa9ab9a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188173073396698590, guid: 1c385061db1ac3949ac6ee7eaa9ab9a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1c385061db1ac3949ac6ee7eaa9ab9a1, type: 3}
+--- !u!114 &563873326 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 135336378959515775, guid: 1c385061db1ac3949ac6ee7eaa9ab9a1, type: 3}
+  m_PrefabInstance: {fileID: 563873325}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 009ae563ed734f047807a7bf2aacaf84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &565093009
 GameObject:
   m_ObjectHideFlags: 0
@@ -4757,10 +4945,10 @@ RectTransform:
   m_Father: {fileID: 139332851}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -156}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29311103, y: 0.32412493}
+  m_AnchorMax: {x: 0.7235556, y: 0.42100003}
+  m_AnchoredPosition: {x: -0.8661041, y: 7}
+  m_SizeDelta: {x: 4.0158997, y: -3.643898}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &565093011
 MonoBehaviour:
@@ -4863,8 +5051,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4916,10 +5104,10 @@ RectTransform:
   m_Father: {fileID: 1877797240}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -316.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29038888, y: 0.20353127}
+  m_AnchorMax: {x: 0.7193334, y: 0.29665622}
+  m_AnchoredPosition: {x: 1.6338959, y: 3.0354004}
+  m_SizeDelta: {x: 5.0158997, y: 1.3561096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &603962858
 MonoBehaviour:
@@ -5022,8 +5210,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5485,6 +5673,148 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1001 &624523690
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8676526177771838017, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_Name
+      value: Part Result  Draw (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526177771838017, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526177771838021, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526177771838021, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526177771838021, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526177771838021, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526177771838021, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526177771838021, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526177771838021, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526177771838021, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526177771838021, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526177771838021, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526177771838021, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526177771838021, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526177771838021, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526177771838021, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526177771838021, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526177771838021, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526177771838021, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526177771838021, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526177771838021, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526177771838021, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526177771838021, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526178752209032, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 563873326}
+    - target: {fileID: 8676526178752209032, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResetLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526179257043804, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526179257043804, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526179257043804, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 563873326}
+    - target: {fileID: 8676526179257043804, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526179257043804, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectURL
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526179257043804, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RestartGame, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676526179257043804, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+--- !u!1 &624523691 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8676526177771838017, guid: 9a145606473a1d440b5fda71950bd489, type: 3}
+  m_PrefabInstance: {fileID: 624523690}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &624854655
 GameObject:
   m_ObjectHideFlags: 0
@@ -5512,7 +5842,7 @@ RectTransform:
   m_GameObject: {fileID: 624854655}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 2035368382}
   m_RootOrder: 0
@@ -5535,7 +5865,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5544,23 +5874,19 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 6
+    m_MaxSize: 65
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041C\u044F\u0447, \u043F\u043E\u043F\u0430\u043B \u043A \u0430\u0442\u0430\u043A\u0443\u044E\u0449\u0435\u043C\u0443
-    \u0437\u0430\u0449\u0438\u0442\u043D\u0438\u043A\u0443 \u0438\u0437  \u0432\u0430\u0448\u0435\u0439
-    \u043A\u043E\u043C\u0430\u043D\u0434\u044B, \u043D\u043E \u0446\u0435\u043D\u0442\u0440\u0430\u043B\u044C\u043D\u044B\u0439
-    \u0438\u0433\u0440\u043E\u043A \u0438\u0437 \u043A\u043E\u043C\u0430\u043D\u0434\u044B
-    \u0441\u043E\u043F\u0435\u0440\u043D\u0438\u043A\u0430 \u043E\u0442\u043E\u0431\u0440\u0430\u043B
-    \u043C\u044F\u0447 \u0438 \u043E\u0442\u0434\u0430\u043B \u043F\u0430\u0441 \u0444\u043E\u0440\u0432\u0430\u0440\u0434\u0443 "
+  m_Text: 'The ball went to an attacking defender from your team, but a central player
+    from the opposing team took the ball away and passed it to the forward '
 --- !u!222 &624854658
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5602,10 +5928,10 @@ RectTransform:
   m_Father: {fileID: 1414792158}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8709, y: 323.2265}
-  m_SizeDelta: {x: 500.3811, y: 388.1246}
+  m_AnchorMin: {x: 0.1586111, y: 0.60159385}
+  m_AnchorMax: {x: 0.8511667, y: 0.9007813}
+  m_AnchoredPosition: {x: -5.3708954, y: 1.7265015}
+  m_SizeDelta: {x: 1.3811035, y: 5.1246033}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &627132856
 MonoBehaviour:
@@ -5627,7 +5953,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4ce2201f58139854bb395a769e419997, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5786,7 +6112,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &642155527
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6046,7 +6372,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\"\u0421\u0443\u0448\u0438\u0442\u044C \u0438\u0433\u0440\u0443\""
+  m_Text: '"Dry Game."'
 --- !u!222 &655755236
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6125,7 +6451,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u0434\u0435\u043B\u0430\u0442\u044C"
+  m_Text: Do nothing.
 --- !u!222 &657975728
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6204,8 +6530,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u0435\u0440\u0435\u0434\u0430\u0442\u044C \u043C\u044F\u0447 \u0437\u0430\u0449\u0438\u0442\u0435,
-    \u0447\u0442\u043E\u0431\u044B \u0441\u044B\u0433\u0440\u0430\u0442\u044C \u0432\u043D\u0438\u0447\u044C\u044E"
+  m_Text: Pass the ball to the defense to tie the game
 --- !u!222 &661641196
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6247,10 +6572,10 @@ RectTransform:
   m_Father: {fileID: 296302686}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8709, y: 323.2265}
-  m_SizeDelta: {x: 500.3811, y: 388.1246}
+  m_AnchorMin: {x: 0.15116668, y: 0.6054688}
+  m_AnchorMax: {x: 0.854389, y: 0.90500003}
+  m_AnchoredPosition: {x: -3.8708954, y: -3.2734985}
+  m_SizeDelta: {x: -5.6188965, y: 5.1246033}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &676756839
 MonoBehaviour:
@@ -6272,7 +6597,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4ce2201f58139854bb395a769e419997, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6310,7 +6635,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &677579346
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6533,10 +6858,10 @@ RectTransform:
   m_Father: {fileID: 526475486}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8709, y: 323.2265}
-  m_SizeDelta: {x: 500.3811, y: 388.1246}
+  m_AnchorMin: {x: 0.14872223, y: 0.59840626}
+  m_AnchorMax: {x: 0.84561116, y: 0.9004688}
+  m_AnchoredPosition: {x: 0.12910461, y: 4.2265015}
+  m_SizeDelta: {x: -1.6188965, y: 2.1246033}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &687168864
 MonoBehaviour:
@@ -6558,7 +6883,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4ce2201f58139854bb395a769e419997, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6611,10 +6936,10 @@ RectTransform:
   m_Father: {fileID: 1721108803}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -474.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29711115, y: 0.083000004}
+  m_AnchorMax: {x: 0.71944445, y: 0.18}
+  m_AnchoredPosition: {x: -0.8661041, y: -2.4645996}
+  m_SizeDelta: {x: 10.0159, y: -3.6438904}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &709117332
 MonoBehaviour:
@@ -6717,8 +7042,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -6770,10 +7095,10 @@ RectTransform:
   m_Father: {fileID: 526475486}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -316.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29583338, y: 0.20353127}
+  m_AnchorMax: {x: 0.7192778, y: 0.29665622}
+  m_AnchoredPosition: {x: -0.36610413, y: 3.0354004}
+  m_SizeDelta: {x: 9.0159, y: 1.3561096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &720692274
 MonoBehaviour:
@@ -6876,8 +7201,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -6919,17 +7244,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 731882219}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 861079981}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.14716667, y: 0.587}
+  m_AnchorMax: {x: 0.8488334, y: 0.8483395}
+  m_AnchoredPosition: {x: -0.37088013, y: -2.2734985}
+  m_SizeDelta: {x: -4.6188965, y: -2.8753967}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &731882221
 MonoBehaviour:
@@ -6964,7 +7289,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0412\u0430\u0448\u0430 \u043A\u043E\u043C\u0430\u043D\u0434\u0430 \u0432\u044B\u0438\u0433\u0440\u0430\u043B\u0430."
+  m_Text: Your team won.
 --- !u!222 &731882222
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7043,8 +7368,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041D\u0430\u0431\u043B\u044E\u0434\u0430\u0442\u044C \u0437\u0430 \u0434\u0430\u043B\u044C\u043D\u0435\u0439\u0448\u0435\u0439
-    \u0438\u0433\u0440\u043E\u0439 \u043A\u043E\u043C\u0430\u043D\u0434\u044B"
+  m_Text: Watch the team continue to play
 --- !u!222 &740982482
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7088,10 +7412,10 @@ RectTransform:
   m_Father: {fileID: 317882646}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -316.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.28588888, y: 0.20087501}
+  m_AnchorMax: {x: 0.7238334, y: 0.29753125}
+  m_AnchoredPosition: {x: 1.6338959, y: 4.5354004}
+  m_SizeDelta: {x: -0.98410034, y: -3.6438904}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &749890348
 MonoBehaviour:
@@ -7194,8 +7518,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -7247,10 +7571,10 @@ RectTransform:
   m_Father: {fileID: 1877797240}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -474.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29038888, y: 0.080125004}
+  m_AnchorMax: {x: 0.7193334, y: 0.17384379}
+  m_AnchoredPosition: {x: 1.6338959, y: 2.5354004}
+  m_SizeDelta: {x: 5.0158997, y: 0.35610962}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &751040535
 MonoBehaviour:
@@ -7353,8 +7677,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -7406,10 +7730,10 @@ RectTransform:
   m_Father: {fileID: 498064823}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -316.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29144445, y: 0.20075002}
+  m_AnchorMax: {x: 0.7236111, y: 0.3008125}
+  m_AnchoredPosition: {x: -0.36610413, y: 2.5354004}
+  m_SizeDelta: {x: 3.0158997, y: -7.6438904}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &792118363
 MonoBehaviour:
@@ -7512,8 +7836,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -7679,8 +8003,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\"\u0421\u0443\u0448\u0438\u0442\u044C \u0438\u0433\u0440\u0443\" \u043E\u0441\u0442\u0430\u0432\u0448\u0438\u0435\u0441\u044F
-    \u0432\u0440\u0435\u043C\u044F"
+  m_Text: '"Dry the game" the rest of the time'
 --- !u!222 &820879381
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7759,8 +8082,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041E\u0442\u043E\u0431\u0440\u0430\u0442\u044C \u043C\u044F\u0447 \u0438
-    \u043F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C \u043F\u0440\u043E\u0440\u044B\u0432\u0430\u0442\u044C\u0441\u044F "
+  m_Text: 'Take the ball away and try to break through '
 --- !u!222 &826241172
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7804,10 +8126,10 @@ RectTransform:
   m_Father: {fileID: 498064823}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -156}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29144445, y: 0.3297188}
+  m_AnchorMax: {x: 0.7236111, y: 0.42900002}
+  m_AnchoredPosition: {x: -0.36610413, y: -1.5}
+  m_SizeDelta: {x: 3.0158997, y: -6.643898}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &842513712
 MonoBehaviour:
@@ -7910,8 +8232,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -7955,7 +8277,7 @@ RectTransform:
   m_GameObject: {fileID: 845639544}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 917984841}
   m_RootOrder: 0
@@ -7978,7 +8300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7987,21 +8309,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 6
+    m_MaxSize: 65
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0424\u043E\u0440\u0432\u0430\u0440\u0434 \u0443\u0441\u043F\u0435\u0448\u043D\u043E
-    \u0437\u0430\u0431\u0438\u0432\u0430\u0435\u0442 \u043C\u044F\u0447 \u0432 \u0432\u043E\u0440\u043E\u0442\u0430
-    \u0438 \u043A\u043E\u043C\u0430\u043D\u0434\u0430 \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0442
-    \u043E\u0447\u043A\u043E."
+  m_Text: The forward successfully scores a goal and the team gets a point.
 --- !u!222 &845639547
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8045,10 +8364,10 @@ RectTransform:
   m_Father: {fileID: 969146192}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -156}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.30011111, y: 0.33234376}
+  m_AnchorMax: {x: 0.72483337, y: 0.425875}
+  m_AnchoredPosition: {x: -3.8661041, y: -1.5}
+  m_SizeDelta: {x: 8.0159, y: 1.356102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &849431928
 MonoBehaviour:
@@ -8151,8 +8470,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -8202,10 +8521,10 @@ RectTransform:
   m_Father: {fileID: 139332851}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8709, y: 323.2265}
-  m_SizeDelta: {x: 500.3811, y: 388.1246}
+  m_AnchorMin: {x: 0.1528889, y: 0.60400003}
+  m_AnchorMax: {x: 0.8472779, y: 0.9025001}
+  m_AnchoredPosition: {x: -1.8708954, y: -0.77349854}
+  m_SizeDelta: {x: 0.38110352, y: 6.1246033}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &850235194
 MonoBehaviour:
@@ -8227,7 +8546,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4ce2201f58139854bb395a769e419997, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8278,10 +8597,10 @@ RectTransform:
   m_Father: {fileID: 1918010648}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8709, y: 323.2265}
-  m_SizeDelta: {x: 500.3811, y: 388.1246}
+  m_AnchorMin: {x: 0.14716667, y: 0.587}
+  m_AnchorMax: {x: 0.8488334, y: 0.8483395}
+  m_AnchoredPosition: {x: -0.37088013, y: -2.2734985}
+  m_SizeDelta: {x: -4.6188965, y: -2.8753967}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &861079982
 MonoBehaviour:
@@ -8303,7 +8622,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 1540083d5d55d4f4c9091eb2c70f82a2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8356,10 +8675,10 @@ RectTransform:
   m_Father: {fileID: 1379641337}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -316.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29038888, y: 0.20653127}
+  m_AnchorMax: {x: 0.7192778, y: 0.29953125}
+  m_AnchoredPosition: {x: 1.6338959, y: -0.9645996}
+  m_SizeDelta: {x: 5.0158997, y: 1.3561096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &907541172
 MonoBehaviour:
@@ -8462,8 +8781,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -8515,10 +8834,10 @@ RectTransform:
   m_Father: {fileID: 1414792158}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -474.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29038888, y: 0.088218756}
+  m_AnchorMax: {x: 0.72900003, y: 0.17631254}
+  m_AnchoredPosition: {x: -1.8661041, y: -3.4645996}
+  m_SizeDelta: {x: -1.9841003, y: 8.35611}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &910026232
 MonoBehaviour:
@@ -8621,8 +8940,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -8700,7 +9019,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: aa48e8402cae9a54b94eb9e2b17b79d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8779,7 +9098,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: aa48e8402cae9a54b94eb9e2b17b79d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8867,8 +9186,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0417\u0430\u043D\u044F\u0442\u044C \u0441\u0432\u043E\u044E \u0437\u043E\u043D\u0443
-    \u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0441\u0442\u0438"
+  m_Text: Occupy your area of responsibility
 --- !u!222 &912145856
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8947,9 +9265,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0421\u043A\u0430\u0437\u0430\u0442\u044C \u0437\u0430\u0449\u0438\u0442\u043D\u0438\u043A\u0430\u043C
-    \u0438\u0437 \u0441\u0432\u043E\u0435\u0439 \u043A\u043E\u043C\u0430\u043D\u0434\u044B
-    \u0447\u0442\u043E\u0431\u044B \u0431\u044B\u043B\u0438 \u0432\u043D\u0438\u043C\u0430\u0442\u0435\u043B\u044C\u043D\u044B"
+  m_Text: Tell the defenders on your team to be careful
 --- !u!222 &912192615
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8991,10 +9307,10 @@ RectTransform:
   m_Father: {fileID: 1843063504}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8709, y: 323.2265}
-  m_SizeDelta: {x: 500.3811, y: 388.1246}
+  m_AnchorMin: {x: 0.14855558, y: 0.6013438}
+  m_AnchorMax: {x: 0.8514445, y: 0.9083438}
+  m_AnchoredPosition: {x: -1.8708954, y: -2.2734985}
+  m_SizeDelta: {x: -5.6188965, y: -4.8753967}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &917984842
 MonoBehaviour:
@@ -9016,7 +9332,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4ce2201f58139854bb395a769e419997, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9104,7 +9420,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C..."
+  m_Text: Continue...
 --- !u!222 &924008891
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9133,7 +9449,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &932400803
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9593,7 +9909,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: aa48e8402cae9a54b94eb9e2b17b79d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9646,10 +9962,10 @@ RectTransform:
   m_Father: {fileID: 910594479}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -474.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.2986666, y: 0.081875004}
+  m_AnchorMax: {x: 0.7235556, y: 0.17325002}
+  m_AnchoredPosition: {x: -2.8661041, y: 2.0354004}
+  m_SizeDelta: {x: 8.0159, y: 3.3561096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &959493922
 MonoBehaviour:
@@ -9752,8 +10068,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -9830,7 +10146,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: aa48e8402cae9a54b94eb9e2b17b79d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9875,7 +10191,7 @@ RectTransform:
   m_GameObject: {fileID: 992154777}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 676756838}
   m_RootOrder: 0
@@ -9898,7 +10214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9907,19 +10223,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 6
+    m_MaxSize: 65
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0412\u044B \u0432\u044B\u0431\u0438\u043B\u0438 \u043C\u044F\u0447 \u0443
-    \u0441\u043E\u043F\u0435\u0440\u043D\u0438\u043A\u0430 "
+  m_Text: 'You knocked the ball away from your opponent '
 --- !u!222 &992154780
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9963,10 +10278,10 @@ RectTransform:
   m_Father: {fileID: 317882646}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -474.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.28588888, y: 0.083531246}
+  m_AnchorMax: {x: 0.7238334, y: 0.18053126}
+  m_AnchoredPosition: {x: 1.6338959, y: -3.4645996}
+  m_SizeDelta: {x: -0.98410034, y: -3.6438904}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &996661006
 MonoBehaviour:
@@ -10069,8 +10384,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -10120,10 +10435,10 @@ RectTransform:
   m_Father: {fileID: 910594479}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8709, y: 323.2265}
-  m_SizeDelta: {x: 500.3811, y: 388.1246}
+  m_AnchorMin: {x: 0.14722224, y: 0.600875}
+  m_AnchorMax: {x: 0.85283357, y: 0.9086251}
+  m_AnchoredPosition: {x: -1.8709106, y: -2.7734985}
+  m_SizeDelta: {x: -7.6188965, y: -5.8753967}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1004909379
 MonoBehaviour:
@@ -10145,7 +10460,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4ce2201f58139854bb395a769e419997, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10196,10 +10511,10 @@ RectTransform:
   m_Father: {fileID: 1877797240}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8709, y: 323.2265}
-  m_SizeDelta: {x: 500.3811, y: 388.1246}
+  m_AnchorMin: {x: 0.14883335, y: 0.59900004}
+  m_AnchorMax: {x: 0.8511667, y: 0.9056877}
+  m_AnchoredPosition: {x: -1.8708801, y: 0.72650146}
+  m_SizeDelta: {x: -5.6188965, y: -4.8753967}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1014747447
 MonoBehaviour:
@@ -10221,7 +10536,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4ce2201f58139854bb395a769e419997, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10272,10 +10587,10 @@ RectTransform:
   m_Father: {fileID: 911349451}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8709, y: 323.2265}
-  m_SizeDelta: {x: 500.3811, y: 388.1246}
+  m_AnchorMin: {x: 0.14888889, y: 0.6018752}
+  m_AnchorMax: {x: 0.84561116, y: 0.906}
+  m_AnchoredPosition: {x: 0.12910461, y: -1.2734985}
+  m_SizeDelta: {x: -1.6188965, y: -0.8753967}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1015588411
 MonoBehaviour:
@@ -10297,7 +10612,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4ce2201f58139854bb395a769e419997, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10350,10 +10665,10 @@ RectTransform:
   m_Father: {fileID: 911349451}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -156}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29038888, y: 0.33240625}
+  m_AnchorMax: {x: 0.724889, y: 0.423}
+  m_AnchoredPosition: {x: -0.36610413, y: 0}
+  m_SizeDelta: {x: 1.0158997, y: 4.356102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1066740998
 MonoBehaviour:
@@ -10456,8 +10771,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -10509,10 +10824,10 @@ RectTransform:
   m_Father: {fileID: 969146192}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -316.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.30011111, y: 0.20400001}
+  m_AnchorMax: {x: 0.72483337, y: 0.30253127}
+  m_AnchoredPosition: {x: -3.8661041, y: -0.9645996}
+  m_SizeDelta: {x: 8.0159, y: -6.6438904}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1075431689
 MonoBehaviour:
@@ -10615,8 +10930,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -10703,8 +11018,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C \u0440\u0430\u0437\u044B\u0433\u0440\u0430\u0442\u044C
-    \u043C\u044F\u0447"
+  m_Text: Try to play the ball
 --- !u!222 &1099833456
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10748,10 +11062,10 @@ RectTransform:
   m_Father: {fileID: 911349451}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -474.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29038888, y: 0.080531254}
+  m_AnchorMax: {x: 0.724889, y: 0.17600001}
+  m_AnchoredPosition: {x: -0.36610413, y: 1.5354004}
+  m_SizeDelta: {x: 1.0158997, y: -1.6438904}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1100532313
 MonoBehaviour:
@@ -10854,8 +11168,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -10942,9 +11256,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041E\u0442\u043E\u0431\u0440\u0430\u0442\u044C \u043C\u044F\u0447 \u0438
-    \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u043F\u0430\u0441 \u0441\u0432\u043E\u0435\u043C\u0443
-    \u0441\u043E\u044E\u0437\u043D\u0438\u043A\u0443"
+  m_Text: Take the ball away and pass to your ally
 --- !u!222 &1106071343
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11182,9 +11494,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0412\u043A\u043B\u044E\u0447\u0438\u0442\u0441\u044F \u0432 \u0438\u0433\u0440\u0443
-    \u0438 \u043F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043E\u0442\u043E\u0431\u0440\u0430\u0442\u044C
-    \u043C\u044F\u0447"
+  m_Text: Get into the game and try to take the ball away
 --- !u!222 &1114173692
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11228,10 +11538,10 @@ RectTransform:
   m_Father: {fileID: 1721108803}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -316.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29711115, y: 0.20981252}
+  m_AnchorMax: {x: 0.71944445, y: 0.29500002}
+  m_AnchoredPosition: {x: -0.8661041, y: 0.5354004}
+  m_SizeDelta: {x: 10.0159, y: 10.35611}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1115245571
 MonoBehaviour:
@@ -11334,8 +11644,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -11422,8 +11732,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u0441\u0430\u043C\u043E\u043C\u0443
-    \u0437\u0430\u0431\u0438\u0442\u044C \u043C\u044F\u0447"
+  m_Text: Trying to score the ball yourself
 --- !u!222 &1121404609
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11502,7 +11811,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0442\u044C \u043D\u0430\u0431\u043B\u044E\u0434\u0430\u0442\u044C"
+  m_Text: Continue to observe
 --- !u!222 &1134388640
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11728,7 +12037,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1151768147
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11988,7 +12297,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0424\u043E\u0440\u0432\u0430\u0440\u0434"
+  m_Text: Forward
 --- !u!222 &1167033065
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12264,8 +12573,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0417\u0430\u043D\u044F\u0442\u044C \u0441\u0432\u043E\u044E \u0437\u043E\u043D\u0443
-    \u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0441\u0442\u0438"
+  m_Text: Occupy your area of responsibility
 --- !u!222 &1226593554
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12311,8 +12619,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 106.57506}
+  m_SizeDelta: {x: 0, y: 213.14987}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1227110999
 MonoBehaviour:
@@ -12334,7 +12642,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: a0e53eb899d8db442b8875677626f04a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12387,10 +12695,10 @@ RectTransform:
   m_Father: {fileID: 910594479}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -316.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.2986666, y: 0.20450002}
+  m_AnchorMax: {x: 0.7235556, y: 0.29521865}
+  m_AnchoredPosition: {x: -2.8661041, y: 3.5354004}
+  m_SizeDelta: {x: 8.0159, y: 4.3561096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1237810084
 MonoBehaviour:
@@ -12493,8 +12801,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -12581,7 +12889,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041D\u0435 \u043E\u0442\u0431\u0438\u0440\u0430\u0442\u044C \u043C\u044F\u0447 "
+  m_Text: 'Don''t take the ball away '
 --- !u!222 &1255679817
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12627,8 +12935,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 106.57506}
+  m_SizeDelta: {x: 0, y: 213.14987}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1277983296
 MonoBehaviour:
@@ -12650,7 +12958,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: a0e53eb899d8db442b8875677626f04a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12703,10 +13011,10 @@ RectTransform:
   m_Father: {fileID: 1414792158}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -156}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29038888, y: 0.335}
+  m_AnchorMax: {x: 0.72900003, y: 0.423}
+  m_AnchoredPosition: {x: -1.8661041, y: -2}
+  m_SizeDelta: {x: -1.9841003, y: 8.356102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1279917318
 MonoBehaviour:
@@ -12809,8 +13117,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -12860,10 +13168,10 @@ RectTransform:
   m_Father: {fileID: 1277983295}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8709, y: 323.2265}
-  m_SizeDelta: {x: 500.3811, y: 388.1246}
+  m_AnchorMin: {x: 0.14716667, y: 0.587}
+  m_AnchorMax: {x: 0.8488334, y: 0.8483395}
+  m_AnchoredPosition: {x: -0.37088013, y: -2.2734985}
+  m_SizeDelta: {x: -4.6188965, y: -2.8753967}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1290136501
 MonoBehaviour:
@@ -12885,7 +13193,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 1540083d5d55d4f4c9091eb2c70f82a2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12973,7 +13281,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0417\u0430\u043F\u0430\u0441\u043D\u043E\u0439 \u0438\u0433\u0440\u043E\u043A"
+  m_Text: Backup player
 --- !u!222 &1296602190
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12982,6 +13290,148 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296602187}
   m_CullTransparentMesh: 1
+--- !u!1001 &1301858490
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5909396248395059986, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396248395059986, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396248395059986, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396248395059986, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396248395059986, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396248395059986, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396248395059986, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396248395059986, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396248395059986, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396248395059986, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396248395059986, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396248395059986, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396248395059986, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396248395059986, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396248395059986, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396248395059986, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396248395059986, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396248395059986, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396248395059986, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396248395059986, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396248395059986, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396248395059990, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_Name
+      value: Part Result Win (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396248761859206, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_Text
+      value: 'We won!!! Shall we go celebrate our victory at the casino? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396249235789509, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396249235789509, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396249235789509, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 563873326}
+    - target: {fileID: 5909396249235789509, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396249235789509, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectURL
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396249235789509, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RestartGame, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396249235789509, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909396249740479863, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 563873326}
+    - target: {fileID: 5909396249740479863, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResetLevel
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+--- !u!1 &1301858491 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5909396248395059990, guid: 88b7d2827d7fa204e975b451c4685e6a, type: 3}
+  m_PrefabInstance: {fileID: 1301858490}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1307537606
 GameObject:
   m_ObjectHideFlags: 0
@@ -13017,10 +13467,10 @@ RectTransform:
   m_Father: {fileID: 910594479}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -156}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.2986666, y: 0.33037496}
+  m_AnchorMax: {x: 0.7235556, y: 0.42421868}
+  m_AnchoredPosition: {x: -2.8661041, y: 1}
+  m_SizeDelta: {x: 8.0159, y: 0.356102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1307537608
 MonoBehaviour:
@@ -13123,8 +13573,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -13176,10 +13626,10 @@ RectTransform:
   m_Father: {fileID: 1379641337}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -156}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29038888, y: 0.326875}
+  m_AnchorMax: {x: 0.7192778, y: 0.42612502}
+  m_AnchoredPosition: {x: 1.6338959, y: 1.5}
+  m_SizeDelta: {x: 5.0158997, y: -6.643898}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1321783555
 MonoBehaviour:
@@ -13282,8 +13732,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -13491,8 +13941,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043F\u0440\u043E\u0440\u0432\u0430\u0442\u044C\u0441\u044F
-    \u043A \u0432\u043E\u0440\u043E\u0442\u0430\u043C \u0441\u043E\u043F\u0435\u0440\u043D\u0438\u043A\u0430"
+  m_Text: Try to break through to the opponent's goal
 --- !u!222 &1337921567
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13528,7 +13977,7 @@ RectTransform:
   m_GameObject: {fileID: 1341845409}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 467980020}
   m_RootOrder: 0
@@ -13551,7 +14000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -13560,23 +14009,19 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 6
+    m_MaxSize: 65
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0417\u0430\u0449\u0438\u0442\u043D\u0438\u043A\u0438 \u0437\u0430\u043D\u044F\u043B\u0438
-    \u043F\u043E\u0437\u0438\u0446\u0438\u0438. \u0410 \u043C\u044F\u0447 \u043F\u043E\u043F\u0430\u043B
-    \u0432 \u0440\u0443\u043A\u0438 \u0444\u043E\u0440\u0432\u0430\u0440\u0434\u0430
-    \u0438\u0437 \u043A\u043E\u043C\u0430\u043D\u0434\u044B \u0441\u043E\u043F\u0435\u0440\u043D\u0438\u043A\u0430.
-    \u041D\u043E \u0432\u0430\u043C \u0443\u0434\u0430\u043B\u043E\u0441\u044C \u0437\u0430\u0431\u0440\u0430\u0442\u044C
-    \u0443 \u043D\u0435\u0433\u043E \u043C\u044F\u0447."
+  m_Text: The defenders took their positions. And the ball fell into the hands of
+    a forward from the opposing team. But you managed to take the ball from him.
 --- !u!222 &1341845412
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13655,7 +14100,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0418\u0433\u0440\u0430\u0442\u044C \u0432 \u043F\u043E\u043B \u0441\u0438\u043B\u044B"
+  m_Text: Playing at half strength
 --- !u!222 &1366369157
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13805,8 +14250,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -13884,7 +14329,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: aa48e8402cae9a54b94eb9e2b17b79d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13935,10 +14380,10 @@ RectTransform:
   m_Father: {fileID: 213861509}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8709, y: 323.2265}
-  m_SizeDelta: {x: 500.3811, y: 388.1246}
+  m_AnchorMin: {x: 0.16072223, y: 0.600125}
+  m_AnchorMax: {x: 0.85427785, y: 0.90500003}
+  m_AnchoredPosition: {x: -7.3708954, y: 0.22650146}
+  m_SizeDelta: {x: 1.3811035, y: -1.8753967}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1385756582
 MonoBehaviour:
@@ -13960,7 +14405,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4ce2201f58139854bb395a769e419997, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14005,7 +14450,7 @@ RectTransform:
   m_GameObject: {fileID: 1404962360}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 547951683}
   m_RootOrder: 0
@@ -14028,7 +14473,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -14037,20 +14482,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 6
+    m_MaxSize: 65
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0412\u0430\u043C \u043D\u0435\u0443\u0434\u0430\u043B\u043E\u0441\u044C
-    \u043F\u043E\u043F\u0430\u0441\u0442\u044C \u0432 \u0432\u043E\u0440\u043E\u0442\u0430.
-    \u0412\u0430\u0448\u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F?"
+  m_Text: You failed to hit the goal. What did you do?
 --- !u!222 &1404962363
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14120,7 +14563,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: aa48e8402cae9a54b94eb9e2b17b79d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14158,7 +14601,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1420752248
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14383,10 +14826,10 @@ RectTransform:
   m_Father: {fileID: 1796945519}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -316.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.286, y: 0.20671879}
+  m_AnchorMax: {x: 0.7293333, y: 0.29740626}
+  m_AnchoredPosition: {x: -0.36610413, y: 0.5354004}
+  m_SizeDelta: {x: -4.9841003, y: 4.3561096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1430850069
 MonoBehaviour:
@@ -14577,8 +15020,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0421\u043E\u043F\u0440\u043E\u0432\u0430\u0436\u0434\u0430\u0442\u044C
-    \u0444\u043E\u0440\u0432\u0430\u0440\u0434\u0430 \u0432 \u0438\u0433\u0440\u0435"
+  m_Text: Accompany the forward in the game
 --- !u!222 &1437502791
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14657,10 +15099,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0411\u0435\u0436\u0430\u0442\u044C \u0432 \u0441\u0432\u043E\u044E \u0437\u043E\u043D\u0443
-    \u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0441\u0442\u0438
-    \u0438 \u043D\u0430\u0434\u0435\u044F\u0442\u0441\u044F \u043D\u0430 \u0434\u0440\u0443\u0433\u0438\u0445
-    \u0437\u0430\u0449\u0438\u0442\u043D\u0438\u043A\u043E\u0432"
+  m_Text: Running to their area of responsibility and relying on other defenders
 --- !u!222 &1441229356
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14704,10 +15143,10 @@ RectTransform:
   m_Father: {fileID: 296302686}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -316.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.286, y: 0.20087501}
+  m_AnchorMax: {x: 0.72938895, y: 0.307875}
+  m_AnchoredPosition: {x: -0.36610413, y: -1.9645996}
+  m_SizeDelta: {x: -4.9841003, y: -16.64389}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1452270628
 MonoBehaviour:
@@ -14810,8 +15249,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -14969,8 +15408,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -15235,18 +15674,18 @@ MonoBehaviour:
   - {fileID: 1885689513}
   - {fileID: 1420752247}
   - {fileID: 1486315098}
-  - {fileID: 485083158}
-  - {fileID: 1210516443}
-  - {fileID: 1134593655}
+  - {fileID: 1301858491}
+  - {fileID: 624523691}
+  - {fileID: 486433248}
   - {fileID: 436967356}
   - {fileID: 932400802}
   - {fileID: 677579345}
   - {fileID: 2031596568}
   - {fileID: 41418839}
   - {fileID: 1681970391}
-  - {fileID: 485083158}
-  - {fileID: 1210516443}
-  - {fileID: 1134593655}
+  - {fileID: 1301858491}
+  - {fileID: 624523691}
+  - {fileID: 486433248}
   - {fileID: 1151768146}
   - {fileID: 518180744}
   - {fileID: 2144996443}
@@ -15336,9 +15775,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0412\u043A\u043B\u044E\u0447\u0438\u0442\u0441\u044F \u0432 \u0438\u0433\u0440\u0443
-    \u0438 \u043F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043E\u0442\u043E\u0431\u0440\u0430\u0442\u044C
-    \u043C\u044F\u0447"
+  m_Text: Get into the game and try to take the ball away
 --- !u!222 &1489903729
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15382,10 +15819,10 @@ RectTransform:
   m_Father: {fileID: 317882646}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -156}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.28588888, y: 0.33275}
+  m_AnchorMax: {x: 0.7238334, y: 0.42100003}
+  m_AnchoredPosition: {x: 1.6338959, y: 1.5}
+  m_SizeDelta: {x: -0.98410034, y: 7.356102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1509574239
 MonoBehaviour:
@@ -15488,8 +15925,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -15541,10 +15978,10 @@ RectTransform:
   m_Father: {fileID: 1414792158}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -316.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29038888, y: 0.20678128}
+  m_AnchorMax: {x: 0.72900003, y: 0.29984373}
+  m_AnchoredPosition: {x: -1.8661041, y: -0.9645996}
+  m_SizeDelta: {x: -1.9841003, y: 1.3561096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1511322714
 MonoBehaviour:
@@ -15647,8 +16084,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -15735,7 +16172,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u0434\u0435\u043B\u0430\u0442\u044C"
+  m_Text: Do nothing.
 --- !u!222 &1517138884
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15779,10 +16216,10 @@ RectTransform:
   m_Father: {fileID: 911349451}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -316.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29038888, y: 0.20340627}
+  m_AnchorMax: {x: 0.724889, y: 0.29953125}
+  m_AnchoredPosition: {x: -0.36610413, y: 1.0354004}
+  m_SizeDelta: {x: 1.0158997, y: -2.6438904}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1521756038
 MonoBehaviour:
@@ -15885,8 +16322,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -15936,10 +16373,10 @@ RectTransform:
   m_Father: {fileID: 1796945519}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8709, y: 323.2265}
-  m_SizeDelta: {x: 500.3811, y: 388.1246}
+  m_AnchorMin: {x: 0.15111111, y: 0.6024688}
+  m_AnchorMax: {x: 0.8391112, y: 0.9023751}
+  m_AnchoredPosition: {x: 1.6291046, y: 0.22650146}
+  m_SizeDelta: {x: 5.3811035, y: 4.1246033}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1526962095
 MonoBehaviour:
@@ -15961,7 +16398,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4ce2201f58139854bb395a769e419997, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16006,7 +16443,7 @@ RectTransform:
   m_GameObject: {fileID: 1537514593}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 1015588410}
   m_RootOrder: 0
@@ -16029,7 +16466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -16038,22 +16475,19 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 6
+    m_MaxSize: 65
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0412\u044B \u043F\u044B\u0442\u0430\u0435\u0442\u0435\u0441\u044C \u043F\u0440\u043E\u0440\u0432\u0430\u0442\u044C\u0441\u044F
-    \u0432 \u0437\u043E\u043D\u0443 \u0432\u043E\u0440\u043E\u0442. \u043D\u043E
-    \u0432\u0430\u0441 \u0431\u043B\u043E\u043A\u0438\u0440\u0443\u044E\u0442 \u0437\u0430\u0449\u0438\u0442\u043D\u0438\u043A\u0438
-    \u0438 \u0432\u044B \u043F\u0435\u0440\u0435\u0434\u0430\u0451\u0442\u0435 \u043C\u044F\u0447
-    \u0444\u043E\u0440\u0432\u0430\u0440\u0434\u0443"
+  m_Text: You try to break into the goal area, but you are blocked by defenders and
+    pass the ball to the forward
 --- !u!222 &1537514596
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16089,7 +16523,7 @@ RectTransform:
   m_GameObject: {fileID: 1561495520}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 1385756581}
   m_RootOrder: 0
@@ -16112,7 +16546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -16121,22 +16555,19 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 6
+    m_MaxSize: 65
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041C\u044F\u0447 \u0443 \u0432\u0430\u0441 \u0438 \u0432\u044B \u043F\u0440\u043E\u0440\u044B\u0432\u0430\u0435\u0442\u0435\u0441\u044C
-    \u043A \u0432\u043E\u0440\u043E\u0442\u0430\u043C , \u043D\u043E \u0441\u043E\u043F\u0435\u0440\u043D\u0438\u043A
-    \u043F\u043E \u0446\u0435\u043D\u0442\u0440\u0443 \u043E\u0442\u0431\u0438\u0432\u0430\u0435\u0442
-    \u043C\u044F\u0447 \u0438 \u043E\u0442\u0434\u0430\u0451\u0442 \u0435\u0433\u043E
-    \u0444\u043E\u0440\u0432\u0430\u0440\u0434\u0443"
+  m_Text: You have the ball and you break towards the goal, but the opponent in the
+    center kicks the ball and gives it to the forward
 --- !u!222 &1561495523
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16180,10 +16611,10 @@ RectTransform:
   m_Father: {fileID: 1796945519}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -156}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.286, y: 0.33571878}
+  m_AnchorMax: {x: 0.7293333, y: 0.42112502}
+  m_AnchoredPosition: {x: -0.36610413, y: -0.5}
+  m_SizeDelta: {x: -4.9841003, y: 11.356102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1563397309
 MonoBehaviour:
@@ -16374,9 +16805,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0412\u0441\u0442\u0430\u0442\u044C \u043D\u0430 \u0437\u0430\u0449\u0438\u0442\u0443
-    \u0432\u043E\u0440\u043E\u0442 \u0438 \u043F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F
-    \u043E\u0442\u043E\u0431\u0440\u0430\u0442\u044C \u043C\u044F\u0447"
+  m_Text: Stand on goal and try to take the ball away
 --- !u!222 &1602078166
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16435,7 +16864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -16444,21 +16873,19 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 6
+    m_MaxSize: 65
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0412\u044B \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0435\u0442\u0435
-    \u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C, \u0430 \u0441\u043E\u043F\u0435\u0440\u043D\u0438\u043A
-    \u043F\u0440\u043E\u0440\u044B\u0432\u0430\u0435\u0442\u0441\u044F \u043A \u0432\u043E\u0440\u043E\u0442\u0430\u043C
-    \u0438 \u0437\u0430\u0431\u0438\u0432\u0430\u0435\u0442 \u0432\u0430\u043C \u0433\u043E\u043B"
+  m_Text: You keep watching, and the opponent breaks through to the goal and scores
+    a goal for you
 --- !u!222 &1613979919
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16487,7 +16914,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1629046610
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16747,7 +17174,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u0435\u0440\u0435\u0434\u0430\u0442\u044C \u043C\u044F\u0447 \u0437\u0430\u0449\u0438\u0442\u0435"
+  m_Text: Pass the ball to the defense
 --- !u!222 &1631352277
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16826,8 +17253,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0421\u0434\u0435\u043B\u0430\u0442\u044C \u043F\u0430\u0441 \u043F\u0440\u0430\u0432\u043E\u043C\u0443
-    \u0437\u0430\u0449\u0438\u0442\u043D\u0438\u043A\u0443"
+  m_Text: Make a pass to the right guard
 --- !u!222 &1645010489
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16863,7 +17289,7 @@ RectTransform:
   m_GameObject: {fileID: 1654828947}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 1526962094}
   m_RootOrder: 0
@@ -16886,7 +17312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -16895,24 +17321,19 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 6
+    m_MaxSize: 65
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0424\u043E\u0440\u0432\u0430\u0440\u0434 \u043F\u043E\u043B\u0443\u0447\u0438\u043B
-    \u0442\u0440\u0430\u0432\u043C\u0443 \u043F\u043E \u0432\u0438\u043D\u0435 \u0441\u043E\u043F\u0435\u0440\u043D\u0438\u043A\u0430
-    \u0438 \u043A\u043E\u043C\u0430\u043D\u0434\u0435 \u0441\u043E\u043F\u0435\u0440\u043D\u0438\u043A\u0430
-    \u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D \u0448\u0442\u0440\u0430\u0444.
-    \u0412\u044B \u0432\u044B\u0431\u0438\u0440\u0430\u0435\u0442\u0435 \u043A\u0442\u043E
-    \u0438\u0437 \u0432\u0430\u0448\u0435\u0439 \u043A\u043E\u043C\u0430\u043D\u0434\u044B
-    \u0431\u0443\u0434\u0435\u0442 \u0431\u0438\u0442\u044C \u043C\u044F\u0447."
+  m_Text: The forward is injured due to the opponent's fault and the opposing team
+    is penalized. You choose which of your team will kick the ball.
 --- !u!222 &1654828950
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16954,10 +17375,10 @@ RectTransform:
   m_Father: {fileID: 498064823}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8709, y: 323.2265}
-  m_SizeDelta: {x: 500.3811, y: 388.1246}
+  m_AnchorMin: {x: 0.15116668, y: 0.59775}
+  m_AnchorMax: {x: 0.85266674, y: 0.91112506}
+  m_AnchoredPosition: {x: -3.3708954, y: -2.2734985}
+  m_SizeDelta: {x: -4.6188965, y: -12.875397}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1655414386
 MonoBehaviour:
@@ -16979,7 +17400,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4ce2201f58139854bb395a769e419997, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17017,7 +17438,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1681970392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17398,10 +17819,10 @@ RectTransform:
   m_Father: {fileID: 317882646}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8709, y: 323.2265}
-  m_SizeDelta: {x: 500.3811, y: 388.1246}
+  m_AnchorMin: {x: 0.15516669, y: 0.6024688}
+  m_AnchorMax: {x: 0.84483343, y: 0.90475005}
+  m_AnchoredPosition: {x: -1.8708954, y: -1.2734985}
+  m_SizeDelta: {x: 4.3811035, y: 1.1246033}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1698578782
 MonoBehaviour:
@@ -17423,7 +17844,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4ce2201f58139854bb395a769e419997, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17502,7 +17923,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: aa48e8402cae9a54b94eb9e2b17b79d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17555,10 +17976,10 @@ RectTransform:
   m_Father: {fileID: 1379641337}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -474.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29038888, y: 0.080000006}
+  m_AnchorMax: {x: 0.7192778, y: 0.17600001}
+  m_AnchoredPosition: {x: 1.6338959, y: 1.0354004}
+  m_SizeDelta: {x: 5.0158997, y: -2.6438904}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1739578863
 MonoBehaviour:
@@ -17661,8 +18082,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -17749,8 +18170,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0421\u0434\u0435\u043B\u0430\u0442\u044C \u043F\u0430\u0441 \u043F\u0440\u0430\u0432\u043E\u043C\u0443
-    \u0437\u0430\u0449\u0438\u0442\u043D\u0438\u043A\u0443"
+  m_Text: Make a pass to the right guard
 --- !u!222 &1762125305
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17950,7 +18370,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0412\u0430\u0448\u0430 \u043A\u043E\u043C\u0430\u043D\u0434\u0430 \u043F\u0440\u043E\u0438\u0433\u0440\u0430\u043B\u0430."
+  m_Text: Your team lost.
 --- !u!222 &1772781506
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17994,6 +18414,112 @@ Transform:
   m_Father: {fileID: 7566158280262170288}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1775339115
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 822878624768838246, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_Name
+      value: Casino
+      objectReference: {fileID: 0}
+    - target: {fileID: 822878624768838246, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333464017651694754, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333464017651694754, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333464017651694754, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333464017651694754, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333464017651694754, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333464017651694754, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333464017651694754, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333464017651694754, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333464017651694754, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333464017651694754, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333464017651694754, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333464017651694754, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333464017651694754, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333464017651694754, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333464017651694754, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333464017651694754, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333464017651694754, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333464017651694754, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333464017651694754, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333464017651694754, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333464017651694754, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+--- !u!1 &1775339116 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 822878624768838246, guid: 064b33a359f20d945a359cf3ee56ffe4, type: 3}
+  m_PrefabInstance: {fileID: 1775339115}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1795366725
 GameObject:
   m_ObjectHideFlags: 0
@@ -18064,7 +18590,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u0435\u0440\u0435\u0434\u0430\u0442\u044C \u043C\u044F\u0447 \u0437\u0430\u0449\u0438\u0442\u0435"
+  m_Text: Pass the ball to the defense
 --- !u!222 &1795366728
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18134,7 +18660,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: aa48e8402cae9a54b94eb9e2b17b79d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18185,10 +18711,10 @@ RectTransform:
   m_Father: {fileID: 1721108803}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8709, y: 323.2265}
-  m_SizeDelta: {x: 500.3811, y: 388.1246}
+  m_AnchorMin: {x: 0.1498889, y: 0.59946877}
+  m_AnchorMax: {x: 0.8431667, y: 0.90487504}
+  m_AnchoredPosition: {x: 0.6291199, y: 0.72650146}
+  m_SizeDelta: {x: 1.3811035, y: -2.8753967}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1831208592
 MonoBehaviour:
@@ -18210,7 +18736,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4ce2201f58139854bb395a769e419997, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18289,7 +18815,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: aa48e8402cae9a54b94eb9e2b17b79d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18334,7 +18860,7 @@ RectTransform:
   m_GameObject: {fileID: 1873518338}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 1831208591}
   m_RootOrder: 0
@@ -18357,7 +18883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -18366,21 +18892,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 6
+    m_MaxSize: 65
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0412\u044B \u0443\u0441\u043F\u0435\u0448\u043D\u043E \u043E\u0442\u043E\u0431\u0440\u0430\u043B\u0438
-    \u043C\u044F\u0447 \u0434\u043E \u043A\u043E\u043D\u0446\u0430 \u0438\u0433\u0440\u044B
-    \u043E\u0441\u0442\u0430\u043B\u0438\u0441\u044C \u0441\u0447\u0438\u0442\u0430\u043D\u043D\u044B\u0435
-    \u043C\u0438\u043D\u0443\u0442\u044B"
+  m_Text: You successfully took the ball away with just minutes to go
 --- !u!222 &1873518341
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18450,7 +18973,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: aa48e8402cae9a54b94eb9e2b17b79d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18488,7 +19011,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1885689514
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18748,9 +19271,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u0435\u0440\u0435\u0434\u0430\u0442\u044C \u043C\u044F\u0447 \u0444\u043E\u0440\u0432\u0430\u0440\u0434\u0443,
-    \u0447\u0442\u043E\u0431\u044B \u043F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C
-    \u0432\u044B\u0438\u0433\u0440\u0430\u0442\u044C "
+  m_Text: 'Pass the ball to the forward to try to win '
 --- !u!222 &1898960919
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18829,7 +19350,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041D\u0438\u0447\u044C\u044F."
+  m_Text: Tie.
 --- !u!222 &1917898543
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18873,8 +19394,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 106.57506}
+  m_SizeDelta: {x: 0, y: 213.14987}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1918010649
 MonoBehaviour:
@@ -18896,7 +19417,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: a0e53eb899d8db442b8875677626f04a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18984,7 +19505,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0418\u0434\u0442\u0438 \u0432 \u0437\u043E\u043D\u0443 \u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043D\u043E\u0441\u0442\u0438"
+  m_Text: Going into the zone of responsibility
 --- !u!222 &1927715866
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19028,10 +19549,10 @@ RectTransform:
   m_Father: {fileID: 957614289}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -156}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.286, y: 0.324}
+  m_AnchorMax: {x: 0.7238334, y: 0.42334378}
+  m_AnchoredPosition: {x: 1.6338959, y: 5.5}
+  m_SizeDelta: {x: -0.98410034, y: -6.643898}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1930778761
 MonoBehaviour:
@@ -19134,8 +19655,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -19266,10 +19787,10 @@ RectTransform:
   m_Father: {fileID: 1877797240}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -156}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29038888, y: 0.33240625}
+  m_AnchorMax: {x: 0.7193334, y: 0.42631254}
+  m_AnchoredPosition: {x: 1.6338959, y: -2}
+  m_SizeDelta: {x: 5.0158997, y: 0.356102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1944286974
 MonoBehaviour:
@@ -19372,8 +19893,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -19460,7 +19981,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\"\u0421\u0443\u0448\u0438\u0442\u044C \u0438\u0433\u0440\u0443\" "
+  m_Text: '"Dry Game." '
 --- !u!222 &1947494752
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19504,10 +20025,10 @@ RectTransform:
   m_Father: {fileID: 957614289}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -316.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.286, y: 0.20668754}
+  m_AnchorMax: {x: 0.7238334, y: 0.29740626}
+  m_AnchoredPosition: {x: 1.6338959, y: 0.5354004}
+  m_SizeDelta: {x: -0.98410034, y: 4.3561096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1978826908
 MonoBehaviour:
@@ -19610,8 +20131,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -19655,7 +20176,7 @@ RectTransform:
   m_GameObject: {fileID: 1979896635}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 850235193}
   m_RootOrder: 0
@@ -19678,7 +20199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -19687,21 +20208,19 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 6
+    m_MaxSize: 65
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0412\u044B \u043F\u0435\u0440\u0435\u0434\u0430\u043B\u0438 \u043C\u044F\u0447
-    \u043F\u0440\u0430\u0432\u043E\u043C\u0443 \u0437\u0430\u0449\u0438\u0442\u043D\u0438\u043A\u0443,
-    \u043F\u0440\u0430\u0432\u044B\u0439 \u0437\u0430\u0449\u0438\u0442\u043D\u0438\u043A
-    \u0441\u0434\u0435\u043B\u0430\u043B \u043F\u0430\u0441 \u0444\u043E\u0440\u0432\u0430\u0440\u0434\u0443"
+  m_Text: You passed the ball to the right defender, the right defender passed to
+    the forward
 --- !u!222 &1979896638
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19745,10 +20264,10 @@ RectTransform:
   m_Father: {fileID: 213861509}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -156}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29144445, y: 0.32975}
+  m_AnchorMax: {x: 0.7348334, y: 0.42659378}
+  m_AnchoredPosition: {x: -4.366104, y: 0}
+  m_SizeDelta: {x: -4.9841003, y: -3.643898}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2003819074
 MonoBehaviour:
@@ -19851,8 +20370,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -19889,7 +20408,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2031596569
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20112,10 +20631,10 @@ RectTransform:
   m_Father: {fileID: 957614289}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8709, y: 323.2265}
-  m_SizeDelta: {x: 500.3811, y: 388.1246}
+  m_AnchorMin: {x: 0.15122221, y: 0.59400004}
+  m_AnchorMax: {x: 0.8361668, y: 0.88931257}
+  m_AnchoredPosition: {x: 2.6290894, y: 14.226501}
+  m_SizeDelta: {x: 7.3811035, y: 10.124603}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2035368383
 MonoBehaviour:
@@ -20137,7 +20656,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4ce2201f58139854bb395a769e419997, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -20225,7 +20744,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\"\u0421\u0443\u0448\u0438\u0442\u044C \u0438\u0433\u0440\u0443\" "
+  m_Text: '"Dry Game." '
 --- !u!222 &2050455240
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20261,7 +20780,7 @@ RectTransform:
   m_GameObject: {fileID: 2081787193}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 1698578781}
   m_RootOrder: 0
@@ -20284,7 +20803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -20293,21 +20812,19 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 6
+    m_MaxSize: 65
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041C\u044F\u0447, \u043F\u043E\u043F\u0430\u043B \u043A \u0441\u0432\u043E\u0431\u043E\u0434\u043D\u043E\u043C\u0443
-    \u0437\u0430\u0449\u0438\u0442\u043D\u0438\u043A\u0443 \u0438\u0437 \u043A\u043E\u043C\u0430\u043D\u0434\u044B
-    \u0441\u043E\u043F\u0435\u0440\u043D\u0438\u043A\u0430, \u043D\u043E \u0432\u044B
-    \u043E\u0442\u043E\u0431\u0440\u0430\u043B\u0438 \u043C\u044F\u0447 "
+  m_Text: 'The ball went to a free defender from the opposing team, but you took
+    the ball away '
 --- !u!222 &2081787196
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20351,10 +20868,10 @@ RectTransform:
   m_Father: {fileID: 1721108803}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -156}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.29711115, y: 0.330125}
+  m_AnchorMax: {x: 0.71944445, y: 0.42043748}
+  m_AnchoredPosition: {x: -0.8661041, y: 3.5}
+  m_SizeDelta: {x: 10.0159, y: 5.356102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2095225905
 MonoBehaviour:
@@ -20457,8 +20974,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -20545,9 +21062,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0421\u043A\u0430\u0437\u0430\u0442\u044C \u0437\u0430\u0449\u0438\u0442\u043D\u0438\u043A\u0430\u043C
-    \u0438\u0437 \u0441\u0432\u043E\u0435\u0439 \u043A\u043E\u043C\u0430\u043D\u0434\u044B
-    \u0447\u0442\u043E\u0431\u044B \u0431\u044B\u043B\u0438 \u0432\u043D\u0438\u043C\u0430\u0442\u0435\u043B\u044C\u043D\u044B"
+  m_Text: Tell the defenders on your team to be careful
 --- !u!222 &2111237367
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20705,9 +21220,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u043E\u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F \u043F\u0440\u043E\u0440\u0432\u0430\u0442\u044C\u0441\u044F
-    \u0441 \u043C\u044F\u0447\u043E\u043C \u0432 \u0437\u043E\u043D\u0443 \u0432\u043E\u0440\u043E\u0442
-    \u0441\u043E\u043F\u0435\u0440\u043D\u0438\u043A\u0430"
+  m_Text: Try to break through with the ball into the opponent's goal area
 --- !u!222 &2123788031
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20786,7 +21299,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u0435\u0440\u0435\u0434\u0430\u0442\u044C \u043C\u044F\u0447  \u0444\u043E\u0440\u0432\u0430\u0440\u0434\u0443"
+  m_Text: Pass the ball to the forward
 --- !u!222 &2128476481
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20865,9 +21378,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0421\u043A\u0430\u0437\u0430\u0442\u044C \u0437\u0430\u0449\u0438\u0442\u043D\u0438\u043A\u0430\u043C
-    \u0438\u0437 \u0441\u0432\u043E\u0435\u0439 \u043A\u043E\u043C\u0430\u043D\u0434\u044B
-    \u0447\u0442\u043E\u0431\u044B \u0431\u044B\u043B\u0438 \u0432\u043D\u0438\u043C\u0430\u0442\u0435\u043B\u044C\u043D\u044B"
+  m_Text: Tell the defenders on your team to be careful
 --- !u!222 &2131964323
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20896,7 +21407,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2144996444
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21119,9 +21630,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0412\u044B\u0431\u0440\u043E\u0441\u0438\u0442\u044C \u043C\u044F\u0447
-    \u0432 \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0438 \u043A\u043E\u043C\u0430\u043D\u0434\u044B
-    \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A\u0430"
+  m_Text: Throw the ball toward the opposing team
 --- !u!224 &7566158278651997889
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21213,7 +21722,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: aa48e8402cae9a54b94eb9e2b17b79d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21274,7 +21783,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4ce2201f58139854bb395a769e419997, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21299,10 +21808,10 @@ RectTransform:
   m_Father: {fileID: 7566158278833928031}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.8709, y: 323.2265}
-  m_SizeDelta: {x: 500.3811, y: 388.1246}
+  m_AnchorMin: {x: 0.143, y: 0.606875}
+  m_AnchorMax: {x: 0.8417223, y: 0.90531254}
+  m_AnchoredPosition: {x: 3.6290894, y: -4.7734985}
+  m_SizeDelta: {x: -2.6188965, y: 6.1246033}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &7566158279382846110
 GameObject:
@@ -21350,8 +21859,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -21456,10 +21965,10 @@ RectTransform:
   m_Father: {fileID: 7566158278833928031}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -156}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.28888887, y: 0.33034375}
+  m_AnchorMax: {x: 0.72644454, y: 0.42400002}
+  m_AnchoredPosition: {x: -0.36610413, y: 1}
+  m_SizeDelta: {x: -0.98410034, y: 2.356102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &7566158279501917175
 GameObject:
@@ -21501,8 +22010,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -21607,10 +22116,10 @@ RectTransform:
   m_Father: {fileID: 7566158278833928031}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -316.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.275, y: 0.197875}
+  m_AnchorMax: {x: 0.72644454, y: 0.29900002}
+  m_AnchoredPosition: {x: 4.633896, y: 5.0354004}
+  m_SizeDelta: {x: -10.9841, y: -8.64389}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7566158279540915399
 CanvasRenderer:
@@ -21699,9 +22208,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041D\u0435 \u0432\u044B\u0431\u0440\u0430\u0441\u044B\u0432\u0430\u0442\u044C
-    \u043C\u044F\u0447, \u043F\u0440\u043E\u0441\u0442\u043E \u0441\u0442\u043E\u044F\u0442\u044C
-    \u0432 \u0446\u0435\u043D\u0442\u0440\u0435"
+  m_Text: Don't throw the ball away, just stand in the center
 --- !u!224 &7566158279751507431
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21749,8 +22256,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: da7dfb883fca4c8479574b2ac320d101, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -21855,10 +22362,10 @@ RectTransform:
   m_Father: {fileID: 7566158278833928031}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1339, y: -474.4646}
-  m_SizeDelta: {x: 314.0159, y: 120.3561}
+  m_AnchorMin: {x: 0.28888887, y: 0.07646875}
+  m_AnchorMax: {x: 0.72644454, y: 0.17}
+  m_AnchoredPosition: {x: -0.36610413, y: 6.5354004}
+  m_SizeDelta: {x: -0.98410034, y: 0.35610962}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &7566158279753497525
 GameObject:
@@ -21893,7 +22400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -21902,21 +22409,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 6
+    m_MaxSize: 65
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0421\u0443\u0434\u044C\u044F \u043F\u0440\u043E\u0432\u043E\u0434\u0438\u0442
-    \u0440\u043E\u0437\u044B\u0433\u0440\u044B\u0448 \u043C\u044F\u0447\u0430. \u0412\u044B
-    \u0443\u0447\u0430\u0432\u0441\u0442\u0432\u0443\u0435\u0442\u0435. \u0422\u0432\u043E\u0438
-    \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F?"
+  m_Text: The referee is playing the ball. You are involved. What do you do?
 --- !u!224 &7566158279854157361
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21926,7 +22430,7 @@ RectTransform:
   m_GameObject: {fileID: 7566158279854157362}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 7566158279382846109}
   m_RootOrder: 0
@@ -22040,9 +22544,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0412\u044B\u0431\u0440\u043E\u0441\u0438\u0442\u044C \u043C\u044F\u0447
-    \u0432 \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0438 \u0441\u0432\u043E\u0435\u0439
-    \u043A\u043E\u043C\u0430\u043D\u0434\u044B"
+  m_Text: Throw the ball in the direction of your team
 --- !u!4 &7566158280262170288
 Transform:
   m_ObjectHideFlags: 0
